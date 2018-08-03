@@ -1,0 +1,7 @@
+metricsExporter: true
+
+mysqlRootPassword: {{ percona_xtradb_root_password }}
+
+mysqlUser: test
+mysqlPassword: test
+mysqlDatabase: test
