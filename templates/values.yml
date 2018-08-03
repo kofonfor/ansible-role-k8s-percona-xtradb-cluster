@@ -5,3 +5,9 @@ mysqlRootPassword: {{ percona_xtradb_root_password }}
 mysqlUser: test
 mysqlPassword: test
 mysqlDatabase: test
+
+persistence:
+  enabled: true
+  storageClass: "{{ storage_class_name }}"
+  accessMode: ReadWriteOnce
+  size: 8Gi
