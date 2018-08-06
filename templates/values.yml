@@ -2,9 +2,9 @@ metricsExporter: true
 
 mysqlRootPassword: {{ percona_xtradb_root_password }}
 
-mysqlUser: test
-mysqlPassword: test
-mysqlDatabase: test
+mysqlUser: {{ percona_xtradb_user_name }}
+mysqlPassword: {{ percona_xtradb_user_password }}
+mysqlDatabase: {{ percona_xtradb_db_name }}
 
 persistence:
   enabled: true

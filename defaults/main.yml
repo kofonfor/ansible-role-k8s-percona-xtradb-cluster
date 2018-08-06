@@ -1,0 +1,4 @@
+percona_xtradb_user_name: test
+percona_xtradb_user_password: test
+percona_xtradb_db_name: test
+storage_class_name: "local-storage"
